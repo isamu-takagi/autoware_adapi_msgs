@@ -1,0 +1,6 @@
+uint32 LAUNCH = 1
+uint32 TERMINATE = 2
+
+uint32 command
+---
+autoware_adapi_v1_msgs/ResponseStatus status

@@ -6,6 +6,7 @@ ament_auto_find_build_dependencies()
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   common/msg/ResponseStatus.msg
+  fail_safe/msg/MrmState.msg
   localization/msg/LocalizationInitializationState.msg
   localization/srv/InitializeLocalization.srv
   routing/msg/RouteState.msg
@@ -16,6 +17,15 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   routing/srv/ClearRoute.srv
   routing/srv/SetRoute.srv
   routing/srv/SetRoutePoints.srv
+  operation_mode/srv/ChangeOperationMode.srv
+  operation_mode/msg/OperationMode.msg
+  operation_mode/msg/OperationModeState.msg
+  motion/msg/MotionState.msg
+  motion/srv/AcceptStart.srv
+  planning/msg/VelocityFactor.msg
+  planning/msg/VelocityFactorArray.msg
+  planning/msg/SteeringFactor.msg
+  planning/msg/SteeringFactorArray.msg
   DEPENDENCIES
     builtin_interfaces
     std_msgs
