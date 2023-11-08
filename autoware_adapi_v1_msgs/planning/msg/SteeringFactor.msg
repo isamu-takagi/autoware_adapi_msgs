@@ -3,6 +3,7 @@ uint16 UNKNOWN = 0
 
 # constants for status
 uint16 APPROACHING = 1
+uint16 TRYING = 2       # deprecated
 uint16 TURNING = 3
 
 # constants for direction

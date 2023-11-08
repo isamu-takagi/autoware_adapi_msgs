@@ -1,4 +1,5 @@
 # These constants are used in the behavior field of the SteeringFactor/VelocityFactor.
+string UNKNOWN = ""
 string AVOIDANCE = "avoidance"
 string CROSSWALK = "crosswalk"
 string EMERGENCY_OPERATION = "emergency-operation"
